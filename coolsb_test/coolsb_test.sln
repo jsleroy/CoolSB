@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coolsb_test", "coolsb_test.vcproj", "{F9F78C27-017E-49B3-A1AC-D754CB0C8623}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F286594-CA3B-4CA8-A953-860CE535E4FD} = {0F286594-CA3B-4CA8-A953-860CE535E4FD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coolsb", "..\coolsb\coolsb.vcproj", "{0F286594-CA3B-4CA8-A953-860CE535E4FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F78C27-017E-49B3-A1AC-D754CB0C8623}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9F78C27-017E-49B3-A1AC-D754CB0C8623}.Debug|Win32.Build.0 = Debug|Win32
+		{F9F78C27-017E-49B3-A1AC-D754CB0C8623}.Release|Win32.ActiveCfg = Release|Win32
+		{F9F78C27-017E-49B3-A1AC-D754CB0C8623}.Release|Win32.Build.0 = Release|Win32
+		{0F286594-CA3B-4CA8-A953-860CE535E4FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F286594-CA3B-4CA8-A953-860CE535E4FD}.Debug|Win32.Build.0 = Debug|Win32
+		{0F286594-CA3B-4CA8-A953-860CE535E4FD}.Release|Win32.ActiveCfg = Release|Win32
+		{0F286594-CA3B-4CA8-A953-860CE535E4FD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
